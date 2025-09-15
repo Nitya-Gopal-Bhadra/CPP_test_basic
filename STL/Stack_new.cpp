@@ -21,7 +21,14 @@ int main() {
 
     ///////LLLLLLLLLLIIIIIIIIIIIIIIIIIIIFFFFFFFFFFFFFFFOOOOOOOOOOO
 
+    // Print and pop elements from the stack (LIFO order)
+while (!st.empty()) {
+    cout << st.top() << " ";
+    st.pop();
+}
+
     
+    return 0;
 
     
     return 0;
